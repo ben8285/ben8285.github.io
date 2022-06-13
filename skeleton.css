@@ -371,7 +371,9 @@ h7 { font-size: 0.8rem; line-height: 2;  letter-spacing: 0; }
 
 p {
   margin-top: 0; 
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  font-size: 12; 
+}
 
 
 /* Links
