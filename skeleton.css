@@ -31,7 +31,7 @@
 /* @media (min-width: 1200px) { */
 @media only screen and (hover: none) and (pointer: coarse){
   .content-wrap-all {
-    width: 100%;
+    width: 95%;
     }
 }
 
@@ -74,6 +74,7 @@
   text-align: left;
   outline: none;
   padding: 0 10px;
+  white-space: normal;
 }
 
 
