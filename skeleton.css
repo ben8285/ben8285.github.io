@@ -167,7 +167,8 @@ mark.red {
 .collapsibleSection, .collapsibleLogistics {
   background-color: #777;
   padding-left: 1em;
-  background-image: linear-gradient(#ADD8E6, #787878)
+/*   background-image: linear-gradient(#787878, #ADD8E6); */
+  background-image: linear-gradient(#787878 , #5F9EA0);
 }
 
 
@@ -175,7 +176,7 @@ mark.red {
 .collapsible {
   background-color: #777;
   padding-left: 2em;
-  background-image: linear-gradient(#5F9EA0, #787878)
+  background-image: linear-gradient(#787878 , #5F9EA0);
 }
 
 .collapsibleNested1 {
@@ -235,6 +236,7 @@ mark.red {
 
 
 .active  {
+  background-image: none;
   background-color: #1974D2;
 }
 .active::after { content: '\25b4'; }
@@ -242,9 +244,11 @@ mark.red {
 
 .collapsible:hover, .collapsibleNested1:hover , .collapsibleSection:hover , .collapsibleLogistics:hover  {
   background-color: #4CBB17;
+  background-image: none;
   border-color: black;
   border-style: solid;
   border-width: thin;
+  color: white;
 }
 
 
